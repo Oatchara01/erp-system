@@ -10,6 +10,8 @@ regis_eng/
 *.log
 webhook_log.txt
 cron_log.txt
+logs/*
+!logs/.gitkeep
 
 # Database and configuration files with credentials
 configDB.php

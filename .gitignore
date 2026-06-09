@@ -1,0 +1,29 @@
+# Uploaded files and media
+up_waranty/
+smp_up/
+regis_eng/
+
+# Optional: other upload directories if any
+# (ถ้ามีโฟลเดอร์อื่นที่เก็บไฟล์อัปโหลด สามารถเพิ่มชื่อโฟลเดอร์แล้วตามด้วย / แบบด้านบนได้เลยครับ)
+
+# Log files
+*.log
+webhook_log.txt
+cron_log.txt
+
+# Database and configuration files with credentials
+configDB.php
+configDBsp.php
+dbconnect*.php
+
+# OS generated files
+Thumbs.db
+.DS_Store
+
+# Large media formats inside upload folders (just to be safe)
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.pdf
+*.dng
